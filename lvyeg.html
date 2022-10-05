@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>百度一下，你就知道</title>
+    <!--小图标-->
+    <link rel="shortcut icon" href="favicon.ico" />
+    <style type="text/css">
+      div{
+        text-align:center; 
+      }
+      #top {
+        text-align: right;
+        font-family: cursive;
+        font-size: 12px;
+        font-weight: bold;
+        font-style: normal;
+      }
+      /*鼠标未经过*/
+      a {
+        color: rgb(0, 0, 0);
+        text-decoration: underline;
+      }
+      /*鼠标经过时*/
+      a:hover {
+        color: crimson;
+        text-decoration: none;
+      }
+      /*定义块，更多产品*/
+      .KK{
+        /*block会换行，inline-block保持同一行*/
+        display: inline-block;
+        width: 60px;
+        height: 13px;
+        text-align: center;
+        background: blue;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+      }
+      /*二维码和下方的文字*/
+		.EVM
+		{	
+			text-align: center;
+			margin-top:50px;
+		}
+		.EVM1
+		{
+      margin-top:20px;
+			font-family:arial;
+			color:black;
+			font-size:15px;
+		}
+		.EVM2
+		{
+      margin-top:10px;
+			font-family:arial;
+			color:rgb(159, 153, 153);
+			font-size:13px;
+		}
+    .down{
+			font-family:arial;
+			font-size:13px;
+      /*绝对位置（相对于浏览器）*/
+      position:absolute;
+			bottom:0;
+			width:100%;
+			height:30px;
+      color:rgb(159, 153, 153);
+			font-size:12px;
+    }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div id="top">
+        <a style="color:rgb(255, 0, 0)" href="https://space.bilibili.com/402122872?spm_id_from=333.1007.0.0">个人首页</a>
+        <a href="https://leetcode.cn/leetbook/">力扣</a>
+        <a href="https://www.csdn.net/">CSDN</a>
+        <a href="https://www.toutiao.com/">今日头条</a>
+        <a href="https://www.ixigua.com/">西瓜视频</a>
+        <a href="https://www.bilibili.com/">哔哩哔哩</a>
+        <a href="https://www.dm530p.net/">风车动漫</a>
+        <a href="https://wall.alphacoders.com/?lang=Chinese">中文图片网</a>
+        <a href="https://www.iiice.cn/#/">白嫖怪</a>
+        <a href="javascript:;">登陆</a>				
+				<a href="http://www.baidu.com/gaoji/preferences.html">设置</a>
+        <a class="KK" href="https://www.baidu.com/more/">更多产品</a>
+      </div>
+      <div id="center">
+        <!--logo-->
+        <div>
+          <img src="http://www.baidu.com/img/bd_logo1.png"  width="400"  height="180" title="点击一下，了解更多"/>
+        </div>
+        <!--搜索框-->
+        <p>
+        <form class="in">
+        <input type="text" style="width:300px; height:30px; vertical-align:middle;"/>
+        <input type="button" value="百度一下" style="background:rgb(236, 240, 240);width:80px;height: 35px;vertical-align:middle;font-family: cursive;">
+        </form>
+        </p>
+        <!--二维码-->
+        <div class="EVM">
+		    <img src="IMG/百度.png" width="120px" height="120px"/>
+          <p class="EVM1">下&nbsp载&nbsp百&nbsp度&nbspAPP</p>
+          <p class="EVM2">有事搜一搜  没事看一看</p>	
+        </div>
+      </div>
+        <div class="down">
+          <div style="float:left;">
+            <p>左边</p>
+          </div>
+          <div style="float:right;">
+            <p>右边</p>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>
