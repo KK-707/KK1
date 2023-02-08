@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>KK</title>
+    <style>  
+      body {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="
+      background-color: #000000;
+    ">
+    <>
+    </div>
+    <div style="
+      background-color: #f1f1f1f1; 
+      text-align: center;
+      padding: 30px;
+    ">
+      <img src='https://images2.alphacoders.com/564/thumbbig-564835.webp' alt="好康的" width="500px" height="300px">
+      <h1>KK</h1>
+    </div>
+
+    <div style="
+      max-width=700px;
+      margin：20px auto;
+      padding: 30px;
+      line-height: 1.1;
+      color: red;
+    ">
+      <hr></hr>
+      <h1 style="
+        color: #600000;
+      ">1</h1>
+      <h2 style="
+        color: #700000;
+      ">2</h2>
+      <h3 style="
+        color: #800000;
+      ">3</h3>
+      <h4 style="
+        color: #900000;
+      ">4</h4>
+      <h3 style="
+        color: #A00000;
+      ">5</h3>
+      <h2 style="
+        color: #B00000;
+      ">6</h2>
+      <h1 style="
+        color: #C00000;
+      ">7</h1>
+      <hr></hr>
+    </div>
+
+    <div style="
+      background-color: #f1f1f1f1; 
+      text-align: center;
+      padding: 20px;
+    ">
+      <p>我的B站首页</p>
+      <a href="https://space.bilibili.com/402122872">点这里</a>
+    </div>
+    <div style="
+      background-color: #000000;
+    ">
+    <>
+    </div>
+  </body>
+</html>
